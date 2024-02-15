@@ -293,6 +293,7 @@ header a {
 
 .portfolio_li {
     width: calc((100% - 48px) / 3);
+    row-gap: 48px;
 }
 
 .portfolio_content {

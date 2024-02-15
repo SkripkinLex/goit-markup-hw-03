@@ -173,7 +173,7 @@ header a {
 }
 
 .cart_title {
-    visibility: hidden;
+    visually-hidden: ;
   }
 
 .cart_item {
@@ -216,7 +216,6 @@ header a {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 120px;
 }
 
 .team_items {
@@ -228,7 +227,7 @@ header a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-top: 120px;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .team_cart {
@@ -250,6 +249,7 @@ header a {
     letter-spacing: 0.02em;
     text-align: center;
     margin-top: 32px;
+    margin-bottom: 8px
 }
 
 .team_text {

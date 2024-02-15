@@ -1,7 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+.nav_list_li {
+    margin-right: 40px;
+}
+
+.nav_title {
+    display: flex;
 }
 
 li {
@@ -20,10 +62,15 @@ header a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo_span {
     color: #2e2f42;
+}
+
+.nav_lists_ul {
+    display: flex;
 }
 
 .nav_list {
@@ -42,8 +89,15 @@ header a {
     color: #404bbf;
 }
 
+.addres_ul {
+    display: flex;
+}
+
+.addres_li {
+    margin-right: 40px;
+}
+
 .addres {
-    
     font-style: normal;
 }
 
@@ -66,15 +120,25 @@ header a {
 .effective_section {
     background-color: #2E2F42;
     color: #F4F4FD;
+    height: 600px;
+    margin-bottom: 120px;
+}
+
+.effective_container {
+    display: block;
+    text-align: center;
+    padding-top: 188px;
 }
 
 .effective_title {
+    margin: 0 auto;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     font-weight: 700;
+    max-width: 500px;
+    
 }
 
 .order_btn {
@@ -86,6 +150,10 @@ header a {
     letter-spacing: 0.04em;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 48px;
 }
 
 .order_btn:hover {
@@ -96,6 +164,13 @@ header a {
     background-color: #404BBF;
 }
 
+.cart_section{
+    margin-bottom: 120px;
+}
+
+.cart_title {
+    display: none;
+}
 
 .cart_item {
     color: #2E2F42;
@@ -103,6 +178,14 @@ header a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    
+}
+
+.cart_ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
 
 .cart_text {
@@ -116,6 +199,17 @@ header a {
     background-color: #F4F4FD;
 }
 
+.team_container {
+    display: block;
+}
+
+.team_ul {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 120px;
+}
+
 .team_items {
     color: #2E2F42;
     font-weight: 700;
@@ -124,10 +218,15 @@ header a {
     font-size: 36px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .team_cart {
     background-color: #FFFFFF;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+    padding-bottom: 32px;
 }
 
 .team_item {
@@ -135,14 +234,22 @@ header a {
     font-weight: 500;
     line-height: 1.2;
     font-size: 20px;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 32px;
 }
 
 .team_text {
     color: #434455;
     line-height: 1.5;
     font-size: 16px;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.portfolio_section {
+    padding-top: 120px;
 }
 
 .portfolio_item {
@@ -153,6 +260,15 @@ header a {
     letter-spacing: 0.02em;
     font-size: 36px;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.portfolio_ul {
+    display: flex;
+    gap: 24px;
+    width: 1158px;
+    padding-bottom: 32px;
+    margin-top: 42px;
 }
 
 .portfolio_item_foto {
@@ -161,6 +277,8 @@ header a {
     line-height: 1.2;
     font-size: 20px;
     letter-spacing: 0.02em;
+    margin-left: 16px;
+    margin-top: 32px;
 }
 
 .portfolio_text {
@@ -168,10 +286,19 @@ header a {
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    margin-left: 16px;
+    margin-top: 8px;
 }
 
 .footer {
     background-color: #2E2F42;
+    
+}
+
+.footer_container {
+    height: 312px;
+    margin-top: 120px;
+    padding-top: 100px;
 }
 
 .footer_logo {
@@ -183,6 +310,7 @@ header a {
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
 
 .footer_span {
@@ -195,4 +323,6 @@ header a {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
+    margin-top: 16px;
 }

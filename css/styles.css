@@ -42,8 +42,12 @@ body {
     align-items: center;
 }
 
+.header_title {
+    display: flex;
+}
+
 .nav_list_li {
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .nav_title {

@@ -43,11 +43,12 @@ body {
 }
 
 .nav_list_li {
-    margin-right: 40px;
+    padding: 24px 0
 }
 
 .nav_title {
     display: flex;
+    align-items: center;
 }
 
 li {
@@ -75,6 +76,7 @@ header a {
 
 .nav_lists_ul {
     display: flex;
+    gap: 40px
 }
 
 .nav_list {
@@ -95,10 +97,7 @@ header a {
 
 .addres_ul {
     display: flex;
-}
-
-.addres_li {
-    margin-right: 40px;
+    gap: 40px
 }
 
 .addres {
@@ -126,13 +125,9 @@ header a {
     color: #F4F4FD;
     height: 600px;
     margin-bottom: 120px;
+    padding: 188px 0
 }
 
-.effective_container {
-    display: block;
-    text-align: center;
-    padding-top: 188px;
-}
 
 .effective_title {
     margin: 0 auto;
@@ -141,11 +136,13 @@ header a {
     letter-spacing: 0.02em;
     color: #ffffff;
     font-weight: 700;
-    max-width: 500px;
+    max-width: 496px;
     
 }
 
 .order_btn {
+    display: block;
+    min-width: 169px;
     background-color: #4D5AE5;
     color: #ffffff;
     font-weight: 500;
@@ -170,11 +167,13 @@ header a {
 
 .cart_section{
     margin-bottom: 120px;
+    padding: 120px 0;
 }
 
-.cart_title {
-    display: none;
-}
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
 
 .cart_item {
     color: #2E2F42;
@@ -184,6 +183,10 @@ header a {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     
+}
+
+.cart_li {
+    width: calc((100% - 72px) / 4);
 }
 
 .cart_ul {
@@ -224,7 +227,7 @@ header a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team_cart {
@@ -232,6 +235,10 @@ header a {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border-radius: 0 0 4px 4px;
     padding-bottom: 32px;
+}
+
+.cart_container {
+    padding: 32px 0;
 }
 
 .team_item {
@@ -271,10 +278,21 @@ header a {
 
 .portfolio_ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     width: 1158px;
     padding-bottom: 32px;
     margin-top: 42px;
+}
+
+.portfolio_li {
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio_content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio_item_foto {
@@ -285,6 +303,7 @@ header a {
     letter-spacing: 0.02em;
     margin-left: 16px;
     margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .portfolio_text {

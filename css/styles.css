@@ -46,10 +46,6 @@ body {
     display: flex;
 }
 
-.nav_list_li {
-    padding: 24px 0;
-}
-
 .nav_title {
     display: flex;
     align-items: center;
@@ -89,6 +85,7 @@ header a {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav_list:hover {
@@ -293,7 +290,6 @@ header a {
 
 .portfolio_li {
     width: calc((100% - 48px) / 3);
-    row-gap: 48px;
 }
 
 .portfolio_content {

@@ -15,6 +15,7 @@ button {
 }
 
 img {
+    width: 100%;
     display: block;
 }
 
@@ -22,7 +23,6 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    box-sizing: border-box;
 }
 
 body {
@@ -131,7 +131,6 @@ a {
     background-color: #2E2F42;
     color: #F4F4FD;
     height: 600px;
-    padding: 188px 0
 }
 
 
@@ -143,6 +142,7 @@ a {
     color: #ffffff;
     font-weight: 700;
     max-width: 496px;
+    padding-top: 188px;
     
 }
 
@@ -219,7 +219,7 @@ a {
 
 .team_section {
     background-color: #F4F4FD;
-    padding: 120px 0;
+    padding: 120PX 0;
 }
 
 .team_container {
@@ -250,7 +250,7 @@ a {
 }
 
 .cart_container {
-    padding: 32px 0;
+    padding-bottom: 32px;
 }
 
 .team_item {
@@ -261,7 +261,6 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     margin-top: 32px;
-    margin-bottom: 8px
 }
 
 .team_text {
@@ -274,8 +273,8 @@ a {
 }
 
 .portfolio_section {
-    padding-top: 120px; 
-    padding-bottom: 120px;
+    margin-top: 120px; 
+    margin-bottom: 120px;
 }
 
 .portfolio_item {
@@ -294,8 +293,6 @@ a {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: 1158px;
-    padding-bottom: 32px;
     margin-top: 42px;
 }
 

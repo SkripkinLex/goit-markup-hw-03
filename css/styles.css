@@ -135,7 +135,6 @@ a {
 
 
 .effective_title {
-    display: block;
     margin: 0 auto;
     font-size: 56px;
     line-height: 1.07;
@@ -294,7 +293,6 @@ a {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-top: 42px;
 }
 
 .portfolio_li {
